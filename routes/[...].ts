@@ -1,4 +1,4 @@
-const PROXY_URL = 'https://generativelanguage.googleapis.com'
+const PROXY_URL = 'http://128.204.223.70:17667/'
 
 export default defineEventHandler(async event => {
     const url = getRequestURL(event)
